@@ -12,8 +12,8 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: black;
-   
     padding:20px 40px;
+    cursor: pointer;
 
 }
 .navbar span{
@@ -55,6 +55,7 @@ main{
 .hero-text{
     color:#E6E6E6;
     line-height: 1.5;
+   
 }
 .hero-text h1{
     font-size: 48px;
@@ -84,6 +85,84 @@ main{
     margin-top: 20px;
     margin-right: 30px;
 }
+.Practical{
+    width: 100%;
+    background-color: black;
+      color:#E6E6E6;
+    height: 80vh;
+}
+.Practical h1{
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+  
+}
+.Practical{
+    text-align: center;
+ 
+}
+.dev-icons{
+    padding-top: 70px;
+}
+.dev-icons img{
+    height: 100px;
+    margin-left: 50px;
+}
+.dev-icons img:hover{
+    height: 120px;
+    cursor: pointer;
+    transition: height ease-out 0.35s;
+}
+.learn{
+    background-color:#313634 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    height: 80vh;
+}
+.learn-text{
+   color:#E6E6E6;
+   padding-top: 50px;
+    padding-right: 50px;
+    h1{
+        font-size: 35px;
+        width: 150%;
+    }
+    p{
+        line-height: 1.5;
+        padding-top: 20px;
+    }
+    
+}
+.btn-3{
+    background-color:#D4312B;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-size:13px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.btn-4{
+    background-color: #C95018;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-size:13px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+video{
+    width: 80%;  
+   
+}
 
 
 @media only screen and (max-width:768px) {
@@ -106,5 +185,59 @@ main{
         display: flex;
         justify-content: space-between;
     }
-
+    .hero{
+        height: 100vh;
+        
+    }
+    .hero-text{
+        position: relative;
+        margin-left: 0px;
+        width: 75%;
+        button{
+            font-size:13px;
+        }
+        h1{
+            font-size: 25px;
+            width: 100%;
+        }
+        h2{
+            font-size: 20px;
+            width: 100%;
+        }
+    }
+    .hero img{
+       width: 60%;
+       height: 75vh;
+       
+    }
+    .learn{
+        height: auto;
+       flex-direction: column-reverse;
+       align-items: center;
+       padding-top: 40px;
+       padding-left: 10px;
+       padding-bottom: 20px;
+       text-align: center;
+    }
+    .learn h1{
+        font-size: 35px;
+        width: 100%;
+    }
+    .learn p{
+        width: 90%;
+        margin: 0 auto;
+    }
+    video{
+       width: 95%;
+    }
 }
+    
+   
+   
+    
+   
+    
+    
+
+   
+} 
